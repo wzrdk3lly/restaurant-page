@@ -1,12 +1,12 @@
-export function renderMenu(){
+export function renderAboutUs(){
     let mainSection = document.querySelector(".main-section");
    
 
     
-     let menu = document.createElement("div")
-    menu.innerHTML = `
+     let about = document.createElement("div")
+    about.innerHTML = `
 
- <section class=""> 
+    <section class="">
     <nav
       class="navbar navbar-expand-lg bg-gray-200 shadow-md py-2 h-16relative flex items-center w-full justify-between">
       <div class="px-6 w-full flex flex-wrap items-center justify-between">
@@ -46,216 +46,77 @@ export function renderMenu(){
         <div class="flex items-center lg:ml-auto"></div>
       </div>
     </nav>
-
+  
     <div class="text-center bg-blue-100 text-gray-800 py-20 px-2">
       <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
-        Wzrdk3lly's Cuisine
+       About Us
       </h1>
       <a id="about-us"
         class="inline-block px-7 py-3 mr-2 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-        href="#!" role="button">About us</a>
+        href="#!" role="button">Menu</a>
     </div>
-  </section>
-  <!-- Section: Design Block -->
-
-</div>
-
-
-
-
-
-
-<!-- Accordian Menu items -->
-
-<div class="grid place-items-center mt-5">
-  <h3 class="font-medium leading-tight text-3xl mt-0 mb-2 text-blue-600">Menu</h3>
-
-  <div class="accordion w-1/2" id="accordionExample">
-    <div class="accordion-item bg-white border border-gray-200">
-      <h2 class="accordion-header mb-0" id="headingOne">
-        <button class="
-            accordion-button
-            relative
-            flex
-            items-center
-            w-full
-            py-4
-            px-5
-            text-base text-gray-800 text-left
-            bg-white
-            border-0
-            rounded-none
-            transition
-            focus:outline-none
-          " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-          aria-controls="collapseOne">
-          Open Redirect
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-        data-bs-parent="#accordionExample">
-        <div class="accordion-body py-4 px-5">
-          <strong>$12.99 - -</strong> This delicious meal allows you to take control of another guest at the Cuisine
+    <!-- Container for demo purpose -->
+  <div class="container my-24 px-6 mx-auto">
+    
+    <!-- Section: Design Block -->
+    <section class="mb-32 text-gray-800">
+  
+      <!-- Jumbotron -->
+      <div class="container mx-auto xl:px-32 text-center lg:text-left">
+        <div class="grid lg:grid-cols-2 flex items-center">
+          <div class="mb-12 lg:mb-0">
+            <div
+              class="block rounded-lg shadow-lg px-6 py-12 lg:py-6 xl:py-12 md:px-12 lg:-mr-14"
+              style="background: hsla(0, 0%, 100%, 0.55); backdrop-filter: blur(30px)"
+            >
+            <h3 class="text-2xl font-bold mb-3">We know how valuable your time is</h3>
+            <h5 class="text-lg text-blue-600 font-bold mb-12 lg:mb-10 xl:mb-12">Let us answer your questions</h5>
+  
+            <p class="font-bold mb-4">Anim pariatur cliche reprehenderit?</p>
+            <p class="text-gra-500 mb-6">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
+              autem numquam dolore molestias aperiam culpa alias veritatis
+              architecto eos, molestiae vitae ex eligendi libero eveniet
+              dolorem, doloremque rem aliquid perferendis.
+            </p>
+  
+            <p class="font-bold mb-4">Non cupidatat skateboard dolor brunch?</p>
+            <p class="text-gra-500 mb-6">
+              Distinctio corporis, iure facere ducimus quos consectetur ipsa ut
+              magnam autem doloremque ex! Id, sequi. Voluptatum magnam sed fugit
+              iusto minus et suscipit? Minima sunt at nulla tenetur, numquam
+              unde quod modi magnam ab deserunt ipsam sint aliquid dolores
+              libero repellendus cupiditate mollitia quidem dolorem odit
+            </p>
+  
+            <p class="font-bold mb-4">
+              Praesentium voluptatibus temporibus consequatur non aspernatur?
+            </p>
+            <p class="text-gra-500">
+              Minima sunt at nulla tenetur, numquam unde quod modi magnam ab
+              deserunt ipsam sint aliquid dolores libero repellendus cupiditate
+              mollitia quidem dolorem.
+            </p>
+            </div>
+          </div>
+  
+          <div>
+            <img
+              src="https://mdbootstrap.com/img/new/ecommerce/vertical/075.jpg"
+              class="w-full rounded-lg shadow-lg"
+              alt=""
+            />
+          </div>
         </div>
       </div>
-    </div>
-    <div class="accordion-item bg-white border border-gray-200">
-      <h2 class="accordion-header mb-0" id="headingTwo">
-        <button class="
-            accordion-button
-            collapsed
-            relative
-            flex
-            items-center
-            w-full
-            py-4
-            px-5
-            text-base text-gray-800 text-left
-            bg-white
-            border-0
-            rounded-none
-            transition
-            focus:outline-none
-          " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-          aria-controls="collapseTwo">
-          51% Attack
-        </button>
-      </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-        data-bs-parent="#accordionExample">
-        <div class="accordion-body py-4 px-5">
-          <strong>$15.99 -- </strong> This burger is so full of grease that more than 51% of your arteries will
-          indeed cease to operate. Allowing a complete takeover of your body.
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item bg-white border border-gray-200">
-      <h2 class="accordion-header mb-0" id="headingThree">
-        <button class="
-            accordion-button
-            collapsed
-            relative
-            flex
-            items-center
-            w-full
-            py-4
-            px-5
-            text-base text-gray-800 text-left
-            bg-white
-            border-0
-            rounded-none
-            transition
-            focus:outline-none
-          " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-          aria-controls="collapseThree">
-          Re-entrency
-        </button>
-      </h2>
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-        data-bs-parent="#accordionExample">
-        <div class="accordion-body py-4 px-5">
-          <strong>$13.99 -- </strong> This is an eggplant parmesan that will have you coming back for 2nds, and 3rds,
-          and 4ths, and .... uh oh. You've eaten all of out food
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item bg-white border border-gray-200">
-      <h2 class="accordion-header mb-0" id="headingFour">
-        <button class="
-            accordion-button
-            collapsed
-            relative
-            flex
-            items-center
-            w-full
-            py-4
-            px-5
-            text-base text-gray-800 text-left
-            bg-white
-            border-0
-            rounded-none
-            transition
-            focus:outline-none
-          " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
-          aria-controls="collapseFour">
-          Supply Chain Attack
-        </button>
-      </h2>
-      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-        data-bs-parent="#accordionExample">
-        <div class="accordion-body py-4 px-5">
-          <strong>$24.99 -- </strong> Try all of our chef's special menu items packaged up into one delicious meal.
-        </div>
-      </div>
-    </div>
-
-
-
-    <div class="accordion-item bg-white border border-gray-200">
-      <h2 class="accordion-header mb-0" id="headingFive">
-        <button class="
-            accordion-button
-            collapsed
-            relative
-            flex
-            items-center
-            w-full
-            py-4
-            px-5
-            text-base text-gray-800 text-left
-            bg-white
-            border-0
-            rounded-none
-            transition
-            focus:outline-none
-          " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
-          aria-controls="collapseFive">
-          XSS
-        </button>
-      </h2>
-      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-        data-bs-parent="#accordionExample">
-        <div class="accordion-body py-4 px-5">
-          <strong>$22.99 -- </strong> Stored in the backend of our shop, this meal has been sitting there, just
-          waiting to be eaten
-        </div>
-      </div>
-    </div>
-
-    <!-- Leaked Keys  -->
-    <div class="accordion-item bg-white border border-gray-200">
-      <h2 class="accordion-header mb-0" id="headingSix">
-        <button class="
-            accordion-button
-            collapsed
-            relative
-            flex
-            items-center
-            w-full
-            py-4
-            px-5
-            text-base text-gray-800 text-left
-            bg-white
-            border-0
-            rounded-none
-            transition
-            focus:outline-none
-          " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
-          aria-controls="collapseSix">
-          Leaked Keys
-        </button>
-      </h2>
-      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-        data-bs-parent="#accordionExample">
-        <div class="accordion-body py-4 px-5">
-          <strong>$12.99 -- </strong> Somebody likes to live life on the edge. This sunny side up dish will leave you
-          astonished.
-        </div>
-      </div>
-
-    </div>
+      <!-- Jumbotron -->
+  
+    </section>
+    <!-- Section: Design Block -->
+  
   </div>
-</div>
+  <!-- Container for demo purpose -->
+  </section>
     `
 
 
@@ -329,6 +190,6 @@ export function renderMenu(){
 
 
 
-    mainSection.appendChild(menu)
+    mainSection.appendChild(about)
     mainSection.appendChild(footer)
 }
