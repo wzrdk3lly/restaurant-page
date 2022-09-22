@@ -1,12 +1,11 @@
 export function renderAboutUs(){
     let mainSection = document.querySelector(".main-section");
    
-
-    
      let about = document.createElement("div")
-    about.innerHTML = `
+     about.classList.add("about-us")
 
-    <section class="">
+    about.innerHTML = `
+    <section class="about-us">
     <nav
       class="navbar navbar-expand-lg bg-gray-200 shadow-md py-2 h-16relative flex items-center w-full justify-between">
       <div class="px-6 w-full flex flex-wrap items-center justify-between">
@@ -51,7 +50,7 @@ export function renderAboutUs(){
       <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
        About Us
       </h1>
-      <a id="about-us"
+      <a id="nav-button"
         class="inline-block px-7 py-3 mr-2 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
         href="#!" role="button">Menu</a>
     </div>

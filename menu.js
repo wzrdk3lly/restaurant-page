@@ -4,9 +4,10 @@ export function renderMenu(){
 
     
      let menu = document.createElement("div")
+     menu.classList.add("menu")
     menu.innerHTML = `
 
- <section class=""> 
+ <section class="menu"> 
     <nav
       class="navbar navbar-expand-lg bg-gray-200 shadow-md py-2 h-16relative flex items-center w-full justify-between">
       <div class="px-6 w-full flex flex-wrap items-center justify-between">
@@ -51,7 +52,7 @@ export function renderMenu(){
       <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
         Wzrdk3lly's Cuisine
       </h1>
-      <a id="about-us"
+      <a id="nav-button"
         class="inline-block px-7 py-3 mr-2 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
         href="#!" role="button">About us</a>
     </div>
