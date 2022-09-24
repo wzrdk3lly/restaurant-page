@@ -187,72 +187,7 @@ export function renderMenu() {
         </div>
       </div>
     </div>
-
-
-
-    <div class="accordion-item bg-white border border-gray-200">
-      <h2 class="accordion-header mb-0" id="headingFive">
-        <button class="
-            accordion-button
-            collapsed
-            relative
-            flex
-            items-center
-            w-full
-            py-4
-            px-5
-            text-base text-gray-800 text-left
-            bg-white
-            border-0
-            rounded-none
-            transition
-            focus:outline-none
-          " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
-          aria-controls="collapseFive">
-          XSS
-        </button>
-      </h2>
-      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-        data-bs-parent="#accordionExample">
-        <div class="accordion-body py-4 px-5">
-          <strong>$22.99 -- </strong> Stored in the backend of our shop, this meal has been sitting there, just
-          waiting to be eaten
-        </div>
-      </div>
-    </div>
-
-    <!-- Leaked Keys  -->
-    <div class="accordion-item bg-white border border-gray-200">
-      <h2 class="accordion-header mb-0" id="headingSix">
-        <button class="
-            accordion-button
-            collapsed
-            relative
-            flex
-            items-center
-            w-full
-            py-4
-            px-5
-            text-base text-gray-800 text-left
-            bg-white
-            border-0
-            rounded-none
-            transition
-            focus:outline-none
-          " type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
-          aria-controls="collapseSix">
-          Leaked Keys
-        </button>
-      </h2>
-      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-        data-bs-parent="#accordionExample">
-        <div class="accordion-body py-4 px-5">
-          <strong>$12.99 -- </strong> Somebody likes to live life on the edge. This sunny side up dish will leave you
-          astonished.
-        </div>
-      </div>
-
-    </div>
+       
   </div>
 </div>
     `;
