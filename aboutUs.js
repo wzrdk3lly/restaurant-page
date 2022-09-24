@@ -5,117 +5,130 @@ export function renderAboutUs() {
   about.classList.add("about-us");
 
   about.innerHTML = `
-    <section class="about-us">
-    <nav
-      class="navbar navbar-expand-lg bg-gray-200 shadow-md py-2 h-16relative flex items-center w-full justify-between">
-      <div class="px-6 w-full flex flex-wrap items-center justify-between">
-        <div class="flex items-center">
-          <button
-            class="navbar-toggler border-0 py-3 lg:hidden leading-none text-xl bg-transparent text-gray-600 hover:text-gray-700 focus:text-gray-700 transition-shadow duration-150 ease-in-out mr-2"
-            type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentY"
-            aria-controls="navbarSupportedContentY" aria-expanded="false" aria-label="Toggle navigation">
-            <svg aria-hidden="true" focusable="false" data-prefix="fas" class="w-5" role="img"
-              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-              <path fill="currentColor"
-                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
-              </path>
-            </svg>
-          </button>
-          <a class="navbar-brand text-blue-600" href="#!">
-            <svg class="w-5 h-5 ml-2 lg:ml-0 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-              <path fill="currentColor"
-                d="M485.5 0L576 160H474.9L405.7 0h79.8zm-128 0l69.2 160H149.3L218.5 0h139zm-267 0h79.8l-69.2 160H0L90.5 0zM0 192h100.7l123 251.7c1.5 3.1-2.7 5.9-5 3.3L0 192zm148.2 0h279.6l-137 318.2c-1 2.4-4.5 2.4-5.5 0L148.2 192zm204.1 251.7l123-251.7H576L357.3 446.9c-2.3 2.7-6.5-.1-5-3.2z">
-              </path>
-            </svg>
-          </a>
-        </div>
-        <div class="navbar-collapse collapse grow items-center" id="navbarSupportedContentY">
-          <ul class="navbar-nav mr-auto lg:flex lg:flex-row">
-            <li class="nav-item">
-              <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
-                href="#!" data-mdb-ripple-color="light">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
-                href="#!">About us</a>
-            </li>
-            <li class="nav-item mb-2 lg:mb-0"></li>
-          </ul>
-        </div>
-        <div class="flex items-center lg:ml-auto"></div>
+  <section class="about-us">
+  <nav
+    class="navbar navbar-expand-lg bg-gray-200 shadow-md py-2 h-16relative flex items-center w-full justify-between">
+    <div class="px-6 w-full flex flex-wrap items-center justify-between">
+      <div class="flex items-center">
+        <button
+          class="navbar-toggler border-0 py-3 lg:hidden leading-none text-xl bg-transparent text-gray-600 hover:text-gray-700 focus:text-gray-700 transition-shadow duration-150 ease-in-out mr-2"
+          type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentY"
+          aria-controls="navbarSupportedContentY" aria-expanded="false" aria-label="Toggle navigation">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" class="w-5" role="img"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path fill="currentColor"
+              d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+            </path>
+          </svg>
+        </button>
+        <a class="navbar-brand text-blue-600" href="#!">
+          <svg class="w-5 h-5 ml-2 lg:ml-0 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <path fill="currentColor"
+              d="M485.5 0L576 160H474.9L405.7 0h79.8zm-128 0l69.2 160H149.3L218.5 0h139zm-267 0h79.8l-69.2 160H0L90.5 0zM0 192h100.7l123 251.7c1.5 3.1-2.7 5.9-5 3.3L0 192zm148.2 0h279.6l-137 318.2c-1 2.4-4.5 2.4-5.5 0L148.2 192zm204.1 251.7l123-251.7H576L357.3 446.9c-2.3 2.7-6.5-.1-5-3.2z">
+            </path>
+          </svg>
+        </a>
       </div>
-    </nav>
-  
-    <div class="text-center bg-blue-100 text-gray-800 py-20 px-2">
-      <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
-       About Us
-      </h1>
-      <a id="nav-button"
-        class="inline-block px-7 py-3 mr-2 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-        href="#!" role="button">Menu</a>
+      <div class="navbar-collapse collapse grow items-center" id="navbarSupportedContentY">
+        <ul class="navbar-nav mr-auto lg:flex lg:flex-row">
+          <li class="nav-item">
+            <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
+              href="#!" data-mdb-ripple-color="light">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
+              href="#!">About us</a>
+          </li>
+          <li class="nav-item mb-2 lg:mb-0"></li>
+        </ul>
+      </div>
+      <div class="flex items-center lg:ml-auto"></div>
     </div>
-    <!-- Container for demo purpose -->
+  </nav>
+
+  <div class="text-center bg-blue-100 text-gray-800 py-20 px-2">
+    <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
+      About Us
+    </h1>
+    <a id="nav-button"
+      class="inline-block px-7 py-3 mr-2 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+      href="#!" role="button">Menu</a>
+  </div>
+  <!-- Container for demo purpose -->
   <div class="container my-24 px-6 mx-auto">
-    
+
     <!-- Section: Design Block -->
     <section class="mb-32 text-gray-800">
-  
+
       <!-- Jumbotron -->
       <div class="container mx-auto xl:px-32 text-center lg:text-left">
         <div class="grid lg:grid-cols-2 flex items-center">
           <div class="mb-12 lg:mb-0">
-            <div
-              class="block rounded-lg shadow-lg px-6 py-12 lg:py-6 xl:py-12 md:px-12 lg:-mr-14"
-              style="background: hsla(0, 0%, 100%, 0.55); backdrop-filter: blur(30px)"
-            >
-            <h3 class="text-2xl font-bold mb-3">We know how valuable your time is</h3>
-            <h5 class="text-lg text-blue-600 font-bold mb-12 lg:mb-10 xl:mb-12">Let us answer your questions</h5>
-  
-            <p class="font-bold mb-4">Anim pariatur cliche reprehenderit?</p>
-            <p class="text-gra-500 mb-6">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
-              autem numquam dolore molestias aperiam culpa alias veritatis
-              architecto eos, molestiae vitae ex eligendi libero eveniet
-              dolorem, doloremque rem aliquid perferendis.
-            </p>
-  
-            <p class="font-bold mb-4">Non cupidatat skateboard dolor brunch?</p>
-            <p class="text-gra-500 mb-6">
-              Distinctio corporis, iure facere ducimus quos consectetur ipsa ut
-              magnam autem doloremque ex! Id, sequi. Voluptatum magnam sed fugit
-              iusto minus et suscipit? Minima sunt at nulla tenetur, numquam
-              unde quod modi magnam ab deserunt ipsam sint aliquid dolores
-              libero repellendus cupiditate mollitia quidem dolorem odit
-            </p>
-  
-            <p class="font-bold mb-4">
-              Praesentium voluptatibus temporibus consequatur non aspernatur?
-            </p>
-            <p class="text-gra-500">
-              Minima sunt at nulla tenetur, numquam unde quod modi magnam ab
-              deserunt ipsam sint aliquid dolores libero repellendus cupiditate
-              mollitia quidem dolorem.
-            </p>
+            <div class="block rounded-lg shadow-lg px-6 py-12 lg:py-6 xl:py-12 md:px-12 lg:-mr-14"
+              style="background: hsla(0, 0%, 100%, 0.55); backdrop-filter: blur(30px)">
+              <h3 class="text-2xl font-bold mb-3">Rated the #1 restaurant for H4ck3rs</h3>
+              <h5 class="text-lg text-blue-600 font-bold mb-12 lg:mb-10 xl:mb-12">"Can't hack the planet on an empty
+                stomach"</h5>
+
+              <p class="font-bold mb-4">The Hacker's Manifesto by The Mentor</p>
+              <p class="text-gra-500 mb-6">
+                Another one got caught today, it's all over the papers. "Teenager
+                arrested in computer crime scandal", "Hacker arrested after bank
+                tampering"...
+
+                Damn Kids. They're all alike.
+
+                But did you, in your three-piece psychology and 1950's technobrain ever
+                take a look behind the eyes of a hacker? Did you ever wonder what made
+                him tick, what forces shaped him, what may have molded him?
+
+                I am a hacker, enter my world...
+
+                Mine is a world that begins with school. I've listened to the teacher
+                explain for the fifteenth time how to reduce a fraction. I understand
+                it. "No, Mrs. Smith, I didn't show my work. I did it in my head..."
+
+                Damn kid. Probably copied it. They're all alike.
+
+                I made a discovery today. I found a computer. Wait a second, this is
+                cool. It does what I want it to do. If it makes a mistake, it's because
+                I screwed up. Not because it doesn't like me...
+
+                or feels threatened by me...
+
+                or thinks I'm a smart ass...
+
+                or doesn't like teaching and shouldn't be here...
+
+                Damn kid. All he does is play games. They're all alike.
+
+                And then it happened... A door opened to a world... Rushing through the
+                phone line like heroin through an addict's veins, an electronic pulse is
+                sent out, a refuge from the day to day incompetencies is sought... A
+                board is found.
+
+                "This is it... This is where I belong..."
+              </p><a href="https://archive.org/stream/The_Conscience_of_a_Hacker/hackersmanifesto.txt">....Read More :) </a>
+
+
+
             </div>
           </div>
-  
+
           <div>
-            <img
-              src="https://mdbootstrap.com/img/new/ecommerce/vertical/075.jpg"
-              class="w-full rounded-lg shadow-lg"
-              alt=""
-            />
+            <img src="./pexels-tima-miroshnichenko-5380837.jpg" class="w-full rounded-lg shadow-lg"
+              alt="" />
           </div>
         </div>
       </div>
       <!-- Jumbotron -->
-  
+
     </section>
     <!-- Section: Design Block -->
-  
+
   </div>
   <!-- Container for demo purpose -->
-  </section>
+</section>
     `;
 
   let footer = document.createElement("div");
