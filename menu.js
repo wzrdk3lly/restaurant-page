@@ -1,11 +1,9 @@
-export function renderMenu(){
-    let mainSection = document.querySelector(".main-section");
-   
+export function renderMenu() {
+  let mainSection = document.querySelector(".main-section");
 
-    
-     let menu = document.createElement("div")
-     menu.classList.add("menu")
-    menu.innerHTML = `
+  let menu = document.createElement("div");
+  menu.classList.add("menu");
+  menu.innerHTML = `
 
  <section class="menu"> 
     <nav
@@ -257,14 +255,11 @@ export function renderMenu(){
     </div>
   </div>
 </div>
-    `
+    `;
 
+  let footer = document.createElement("div");
 
-    let footer = document.createElement("div")
-
-    footer.innerHTML = 
-    
-    `
+  footer.innerHTML = `
 
 <footer class="text-center text-white inset-x-0 fixed bottom-0" style="background-color: #f1f1f1">
 
@@ -326,10 +321,8 @@ export function renderMenu(){
 </div>
 </footer>
     
-    `
+    `;
 
-
-
-    mainSection.appendChild(menu)
-    mainSection.appendChild(footer)
+  mainSection.appendChild(menu);
+  mainSection.appendChild(footer);
 }

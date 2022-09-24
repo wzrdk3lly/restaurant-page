@@ -4,4 +4,9 @@
 - Use event bubbling to modify dynamically rendered elements
 - Learning how to import/export my custom modules into js files
 - Alternative way to render components in comparison to my [project-library](https://github.com/wzrdk3lly/project-library.git)
+
+## Potential Improvements 
+- Remove duplication
+- Add ability to render page when clicking the menu and about us navigation links
+
   

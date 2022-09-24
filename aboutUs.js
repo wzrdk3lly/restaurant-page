@@ -1,10 +1,10 @@
-export function renderAboutUs(){
-    let mainSection = document.querySelector(".main-section");
-   
-     let about = document.createElement("div")
-     about.classList.add("about-us")
+export function renderAboutUs() {
+  let mainSection = document.querySelector(".main-section");
 
-    about.innerHTML = `
+  let about = document.createElement("div");
+  about.classList.add("about-us");
+
+  about.innerHTML = `
     <section class="about-us">
     <nav
       class="navbar navbar-expand-lg bg-gray-200 shadow-md py-2 h-16relative flex items-center w-full justify-between">
@@ -116,14 +116,11 @@ export function renderAboutUs(){
   </div>
   <!-- Container for demo purpose -->
   </section>
-    `
+    `;
 
+  let footer = document.createElement("div");
 
-    let footer = document.createElement("div")
-
-    footer.innerHTML = 
-    
-    `
+  footer.innerHTML = `
 
 <footer class="text-center text-white inset-x-0 fixed bottom-0" style="background-color: #f1f1f1">
 
@@ -185,10 +182,8 @@ export function renderAboutUs(){
 </div>
 </footer>
     
-    `
+    `;
 
-
-
-    mainSection.appendChild(about)
-    mainSection.appendChild(footer)
+  mainSection.appendChild(about);
+  mainSection.appendChild(footer);
 }
