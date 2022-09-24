@@ -14,6 +14,7 @@ The objective of this project was to build a restaurant page and render the html
 
 ## Potential Improvements 
 - Remove any duplication
+- Fix tailwind bug that's causing the XSS menu item to render. 
 
 
   
